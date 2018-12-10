@@ -1,0 +1,13 @@
+{
+    "AppSyncApiName": "wherewegoingtoday",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authcognito489cec03",
+            "Outputs.UserPoolId"
+        ]
+    },
+    "schemaGraphql": "s3://wherewegoingtoday-20181209191531-deployment/amplify-appsync-files/schema.graphql.1544411885088",
+    "ResolverBucket": "wherewegoingtoday-20181209191531-deployment",
+    "ResolverRootKey": "amplify-appsync-files",
+    "DeploymentTimestamp": "1544411885088"
+}
